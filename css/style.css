@@ -1,0 +1,400 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.top-area{
+  background: #F8F8F8;
+}
+.top-left {
+    margin-top: 8px;
+}
+ul.list-inline.address {}
+i.fa.fa-globe {}
+ul.list-inline.address li i {
+    color: #42B061;
+    font-size: 15px;
+}
+ul.list-inline.address li {
+    color: #979797;
+    font-size: 15px;
+}
+dropdown {
+    border: none;
+}
+select.language {
+    border: none;
+}
+i.fa.fa-sign-in {}
+
+li.signin-icon {
+    color: #42B061;
+    font-size: 20px;
+}
+a.Signin {
+    color: #979797;
+    text-transform: uppercase;
+}
+
+a.Register {
+    color: #979797;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+a.Register:hover {
+    color: #42B061;
+    font-weight: 700;
+}
+
+a.Signin:hover {
+    color: #42B061;
+    font-weight: 700;
+}
+li.social-links i {
+    color: #fff;
+    background: #979797;
+    width: 20px;
+    height: 18px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    padding-top: 2px;
+}
+
+li.social-links i:hover {
+    background: #42B061;
+    border-color: #42B061;
+}
+section.menu-area {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mainmenu{
+  padding-top: 20px;
+}
+.mainmenu ul li a {
+    color: #555555;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.mainmenu ul li a:hover {
+    color: #42B061;
+}
+section.banner-area {
+    background: url(../images/carousel.jpg) no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.banner-text {
+    top: 50%;
+    transform: translate(0, 70%);
+}
+
+.banner-text h1 {
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 18px;
+}
+span.Welcome {
+    color: #42B061;
+    font-size: 72px;
+}
+.btn-info:hover {
+    color: #fff;
+    background: #42B061;
+    border-color: #42B061;
+}
+.btn-info {
+    color: #42B061;
+    background-color: #fff;
+    border-color: #42B061;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 30px;
+}
+section.about-area {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.about-heading h2 {
+    text-transform: uppercase;
+    color: #363636;
+    font-weight: 700;
+}
+
+.common-heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.common-heading p {
+    color: #777777;
+}
+.about-right h4 {
+    color: #42B061;
+}
+
+.about-right p {
+    color: #777;
+}
+section.recent-area {
+    background: #F8F8F8;
+    padding: 100px 0;
+}
+
+.recent-heading, .common-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recent-heading h2 {
+    text-transform: uppercase;
+    color: #484848;
+}
+
+.recent-heading p {color: #BEBEBE;}
+.courses {
+    text-align: center;
+}
+
+.Icons {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.every-course {
+    width: 30%;
+    margin-right: 15px;
+    padding: 30px;
+    background: #F8F8F8;
+    border: 4px solid #fff;
+    border-radius: none;
+}
+.course-link i, h2, p{
+    color:#191919;
+}
+.gallery-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section.gallery {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.gallery-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section.gallery {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.gallery-links {
+    text-align: center;
+}
+
+gallery-links ul li a {
+    color: #707070;
+}
+
+.gallery-links ul li a {
+    color: #707070;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.gallery-links ul li a:hover {
+    color: #5FB775;
+    border-bottom: 2px solid #5FB775;
+    padding-bottom: 4px;
+}
+
+.gallery-links {
+    margin-bottom: 50px;
+}
+.gallery-collection img {
+    margin-bottom: 25px;
+}
+
+div#load {
+    margin-top: 25px;
+}
+.offer-icon i {
+    font-size: 30px;
+    border: 1px solid #fff;
+    padding: 16px;
+    border-radius: 50%;
+    width: 60px;
+    height: 59px;
+    text-align: center;
+    background: #fff;
+}
+section.offers {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: #f8f8f8;
+}
+
+.offer-details h3 {
+    color: #191919;
+}
+
+i.fa.fa-lightbulb-o {}
+
+.offer-link:hover{
+    background: #42B061;
+    color: #fff;
+}
+.offer-link:hover{
+    
+}
+section.resource-person {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.resource-details img {
+    margin-bottom: 20px;
+}
+
+.resource-details {
+    text-align: center;
+}
+
+.resource-details a {
+    color: #363636;
+}
+
+.resource-details a:hover {
+    color: #42B061;
+}
+section.reviews {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: url(../images/testimonial_bg.png) no-repeat;
+    width: 100%;
+}
+section.blog-area{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+section.client-area{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background:#f8f8f8;
+}
+section.contact-area{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+section.footer-top-area{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background:#f8f8f8;
+}
+
+.contact-group {
+    width: 380px;
+    height: auto;
+    border: 1px solid #f8f8f8;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.media-left {
+    width: 150px;
+}
+.insta{
+    margin-bottom: 5px;
+}
+.footer-bottom img{
+    width: 50px;
+    padding-bottom: 17px;
+    margin-left: 7px;
+}
+.footer-bottom{
+    background: #f8f8f8;
+    text-align: center;
+}
+.hm{
+    color: #42B061;
+}
+#map-container{
+    height: 428px;
+}
+input#Name {
+    width: 60vh;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+textarea#Text{
+    width: 60vh;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+button#btn-custom {
+    width: 60vh;
+}
+section#footer {
+    /* border: 1px solid #42B061; */
+    right: 20px;
+    bottom: 50px;
+    position: fixed;
+}
+
+#footer a {
+    border: 1px solid #42B061;
+    padding: 5px;
+    text-align: center;
+}
